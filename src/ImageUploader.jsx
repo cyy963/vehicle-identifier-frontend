@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import styles from './ImageUploader.module.css'
 
+
+
 const Upload = () => {
     const [file, setFile] = useState(null);
     const [result, setResult] = useState(null);
@@ -29,17 +31,20 @@ const Upload = () => {
     };
 
     return (
-        <div>
+        <div className={styles.pageBody}>
           <div className={styles.heading}>
-            <h1>Turners Cars</h1>
-            <h2>Get Car Insurance from the car experts.  It’s quick, easy and affordable.</h2>
-            <h3>First, lets find out what type of car you have using our latest AI technology, please upload an image of your car below!</h3>
+            
+            <h2>Get Car Insurance from the car experts.  It’s quick, easy and affordable!</h2>
+            <h3>First, lets find out what type of car you have using our latest AI technology,<br/> please upload an image of your car below:</h3>
           </div>
-          <form onSubmit={handleSubmit}>
-              <input type="file" onChange={handleFileChange} />
-              <button type="submit">Upload</button>
-          </form>
-          {result && <div>Car Type: {result.carType}</div>}
+          <div className={styles.uploader}>
+            <form onSubmit={handleSubmit}>
+                <input type="file" onChange={handleFileChange} />
+                <button type="submit">Upload</button>
+            </form>
+            {result && <div><h4>Your Car Type: {result.carType.toUpperCase()}</h4></div>}
+          </div>
+
         </div>
     );
 };
