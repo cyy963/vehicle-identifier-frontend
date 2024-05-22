@@ -8,20 +8,6 @@ import TCbanner from './assets/TCbanner.png';
 import TCfooter from './assets/TCfooter.png';
 
 const App = () => {
-  // Function to check the health of the backend API
-  const checkHealth = async () => {
-    try {
-      const response = await axios.get(`${import.meta.env.VITE_API_URL}/healthCheck`);
-      console.log(response.data); // Should log 'API is running'
-    } catch (error) {
-      console.error('Health check failed:', error);
-    }
-  };
-
-  // Use useEffect to call the health check function when the component mounts
-  useEffect(() => {
-    checkHealth();
-  }, []);
 
   return (
     <div className='body'>
