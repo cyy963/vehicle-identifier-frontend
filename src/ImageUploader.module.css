@@ -45,5 +45,5 @@ input[type="file"]::file-selector-button {
 }
 .result{
   display: flex;
-  
+  margin-right: 10px;
 }
