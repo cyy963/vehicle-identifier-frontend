@@ -22,7 +22,7 @@ jobs:
 
       - name: Build And Deploy
         env: 
-          REACT_APP_API_HOST: ${{ secrets.REACT_APP_API_HOST }}
+          VITE_API_URL: ${{ secrets.VITE_API_URL }}
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
