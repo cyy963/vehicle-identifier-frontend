@@ -43,8 +43,14 @@ input[type="file"]::file-selector-button {
   color: white;
   padding: 10px 15px;
 }
-.result *{
-  width: 40%;
+.result{
+  width: fit-content;
   display: flex;
-  margin-right: 10px;
+  text-align: start;
+}
+.result *{
+  margin-right: 5px;
+}
+.resultText{
+  color: rgb(0, 115, 207);
 }

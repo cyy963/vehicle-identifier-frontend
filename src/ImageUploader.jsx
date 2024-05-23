@@ -38,9 +38,9 @@ const Upload = () => {
           <input type="file" onChange={handleFileChange} />
           <button type="submit">Upload</button>
         </form>
-        <div  className={styles.result}>
+        <div className={styles.result}>
           <h4>Your Car Type:</h4>
-          {result && <h4> {result.carType.toUpperCase()}</h4>}
+          {result && <h4 className={styles.resultText}> {result.carType.toUpperCase()}</h4>}
         </div>
       </div>
     </div>
