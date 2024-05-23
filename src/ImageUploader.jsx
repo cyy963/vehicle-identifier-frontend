@@ -40,7 +40,7 @@ const Upload = () => {
         </form>
         <div  className={styles.result}>
           <h4>Your Car Type:</h4>
-          {result && <div><h4> {result.carType.toUpperCase()}</h4></div>}
+          {result && <h4> {result.carType.toUpperCase()}</h4>}
         </div>
       </div>
     </div>
