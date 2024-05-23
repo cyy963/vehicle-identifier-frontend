@@ -16,7 +16,7 @@ const Upload = () => {
     formData.append('image', file);
 
     try {
-      const response = await axios.post('https://v3-m1-backend.azurewebsites.net/api/upload', formData, {
+      const response = await axios.post('m1-backend-webapp.azurewebsites.net/api/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
