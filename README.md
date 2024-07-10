@@ -1,4 +1,4 @@
-# Vehicle Image Recognition & Insurance Premium Calculator Frontend (Archived)
+# Vehicle Image Recognition Frontend (Archived)
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Axios](https://img.shields.io/badge/Axios-1.2.0-orange?style=for-the-badge&logo=axios)
