@@ -14,7 +14,7 @@ This project provided a frontend interface where users could upload an image of 
 
 - **Image Upload:** Users could upload an image of a vehicle.
 - **Real-Time Feedback:** The frontend displayed the identified body type and make of the vehicle.
-- **Premium Calculation:** Calculated a premium based on number of risky words in a users vehicle history description.
+- **Deployment & CI/CD:** Deployed using Azure, and uses Github Actions for CI/CD.
 - **Simple UI:** Built with React, providing a clean and responsive interface.
 
 ## Technologies Used
