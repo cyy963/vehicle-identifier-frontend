@@ -1,9 +1,5 @@
 # Vehicle Image Recognition Frontend (Archived)
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Axios](https://img.shields.io/badge/Axios-1.2.0-orange?style=for-the-badge&logo=axios)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-
 **Note:** This project is no longer live. The code is kept here for reference purposes only.
 
 ## Description
@@ -24,7 +20,7 @@ This project provided a frontend interface where users could upload an image of 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-1.2.0-orange?style=for-the-badge&logo=axios)
-
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 ## License
 
