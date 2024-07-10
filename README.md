@@ -10,8 +10,6 @@
 
 This project provided a frontend interface where users could upload an image of a vehicle. The image was then sent to a backend service that used Azure Vision to identify the body type and make of the vehicle.
 
-Additionally a premium calculator page would calculate a premium based on a user's driving history. 
-
 ## Features
 
 - **Image Upload:** Users could upload an image of a vehicle.
